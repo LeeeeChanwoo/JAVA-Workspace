@@ -1,0 +1,24 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		 sc.nextLine();
+		String b = sc.nextLine();
+		int c = (int)b.charAt(2);
+		int d = (int)b.charAt(1);
+		int e = (int)b.charAt(0);
+	  
+				System.out.println(a*c);
+				System.out.println(a*d);
+				System.out.println(a*e);
+
+		
+
+		}
+}

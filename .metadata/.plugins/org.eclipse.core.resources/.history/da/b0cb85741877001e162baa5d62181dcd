@@ -1,0 +1,24 @@
+package com.kh.first; // 패키지 선언부
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int king = sc.nextInt();
+		int queen = sc.nextInt();
+		int look = sc.nextInt();
+		int bis = sc.nextInt();
+		int kni = sc.nextInt();
+		int po = sc.nextInt();
+	
+		System.out.print(1-king);
+		System.out.print(1-queen);
+		System.out.print(2-look);
+		System.out.print(2-bis);
+		System.out.print(2-kni);
+		System.out.println(8-po);
+
+	}
+}

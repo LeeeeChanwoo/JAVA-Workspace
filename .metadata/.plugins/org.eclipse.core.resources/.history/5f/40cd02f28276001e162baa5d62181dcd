@@ -1,0 +1,26 @@
+package com.kh.first; // 패키지 선언부
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		sc.nextLine();
+		String X = sc.nextLine();
+		String V = sc.nextLine();
+		sc.nextLine();
+
+		String[] Z = X.split(" ");
+
+		int a = 0;
+		for (int i = 0; i < N; i++) {
+			if (Z[i].equals(V)) {
+				a += 1;
+			}
+		}
+		System.out.println(a);
+
+	}
+}

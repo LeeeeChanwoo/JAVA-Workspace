@@ -1,0 +1,17 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+			System.out.println("       _.-;;-._\r\n"
+					+ "'-..-'|   ||   |\r\n"
+					+ "'-..-'|_.-;;-._|\r\n"
+					+ "'-..-'|   ||   |\r\n"
+					+ "'-..-'|_.-''-._|");
+		}
+
+	}
+

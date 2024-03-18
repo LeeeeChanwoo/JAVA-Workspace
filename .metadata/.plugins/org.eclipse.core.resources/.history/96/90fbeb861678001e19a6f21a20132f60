@@ -1,0 +1,18 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		String X = sc.nextLine();
+		String N = sc.nextLine();
+		if(X.length()>=N.length()){
+			System.out.println("go");
+	} else {
+		System.out.println("no");
+	}
+	}
+}

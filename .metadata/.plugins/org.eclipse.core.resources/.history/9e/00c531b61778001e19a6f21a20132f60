@@ -1,0 +1,14 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int X = sc.nextInt();
+		int N = sc.nextInt();
+		System.out.println(X-1946);
+	}
+}

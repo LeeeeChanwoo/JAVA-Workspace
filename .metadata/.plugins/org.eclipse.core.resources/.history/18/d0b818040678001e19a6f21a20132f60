@@ -1,0 +1,30 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a= sc.nextInt();
+		int b= sc.nextInt();
+		int c= sc.nextInt();
+		int d= sc.nextInt();
+		int e= sc.nextInt();
+		int f= sc.nextInt();
+		int g= sc.nextInt();
+		int h= sc.nextInt();
+		int i= sc.nextInt();
+		int [] arr = {a,b,c,d,e,f,g,h,i};
+		
+		int max = Integer.MIN_VALUE; // 초기 최대값을 가장 작은 정수값으로 설정
+		
+	    for (int q = 1; q <=arr.length; i++) {
+	        max = Math.max(arr[i], max);
+	        System.out.println(max);
+	        System.out.println(q);
+	    }
+	
+	}
+}

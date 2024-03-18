@@ -1,0 +1,29 @@
+package com.kh.first; // 패키지 선언부
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int d = sc.nextInt();
+		int e = sc.nextInt();
+		int aa = sc.nextInt();
+		int bb = sc.nextInt();
+		int cc = sc.nextInt();
+		int dd = sc.nextInt();
+		int ee = sc.nextInt();
+		
+
+			System.out.print(a*6+b*3+c*2+d*1+e*2+" ");
+			System.out.print(aa*6+bb*3+cc*2+dd*1+ee*2);
+			
+		
+
+
+	}
+}

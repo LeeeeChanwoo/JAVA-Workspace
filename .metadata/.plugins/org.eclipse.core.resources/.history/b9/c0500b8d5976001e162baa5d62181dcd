@@ -1,0 +1,10 @@
+package com.kh.first; // 패키지 선언부
+// 패키지 작성시 2단계 까지는 도메인의 역순으로 작성한다.
+// ex) kh.com -> com.kh, naver.com -> com.naver
+
+public class Main { 
+	public static void main(String[] args) {
+
+		System.out.println("Hello world");
+	}
+}
